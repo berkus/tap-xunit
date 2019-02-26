@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <testsuites>
   <testsuite name="unicode" tests="5" failures="2" errors="0">
-    <testcase name="#1 Երկինքը կապույտ"/>
-    <testcase name="#2 天空是蓝色的">
+    <testcase name="#1 &#x535;&#x580;&#x56F;&#x56B;&#x576;&#x584;&#x568; &#x56F;&#x561;&#x57A;&#x578;&#x582;&#x575;&#x57F;"/>
+    <testcase name="#2 &#x5929;&#x7A7A;&#x662F;&#x84DD;&#x8272;&#x7684;">
       <failure>
           ---
             operator: fail
@@ -10,8 +10,8 @@
           ...
       </failure>
     </testcase>
-    <testcase name="#3 ουρανός είναι μπλε"/>
-    <testcase name="#4 آسمان آبی است">
+    <testcase name="#3 &#x3BF;&#x3C5;&#x3C1;&#x3B1;&#x3BD;&#x3CC;&#x3C2; &#x3B5;&#x3AF;&#x3BD;&#x3B1;&#x3B9; &#x3BC;&#x3C0;&#x3BB;&#x3B5;"/>
+    <testcase name="#4 &#x622;&#x633;&#x645;&#x627;&#x646; &#x622;&#x628;&#x6CC; &#x627;&#x633;&#x62A;">
       <failure>
           ---
             operator: fail
@@ -19,6 +19,6 @@
           ...
       </failure>
     </testcase>
-    <testcase name="#5 &lt;>~!@#$%^&amp;*()_+&lt;>?:&quot;{},./;'[]=-)װױײ׳״ˀˁ˂˃˄˅ˆˇˈˉ     "/>
+    <testcase name="#5 &#x3C;&#x3E;~!@#$%^&#x26;*()_+&#x3C;&#x3E;?:&#x22;{},./;&#x27;[]=-)&#x5F0;&#x5F1;&#x5F2;&#x5F3;&#x5F4;&#x2C0;&#x2C1;&#x2C2;&#x2C3;&#x2C4;&#x2C5;&#x2C6;&#x2C7;&#x2C8;&#x2C9;&#xF039; &#xF03A; &#xF03B; &#xF03C; &#xF03D; &#xF03E;"/>
   </testsuite>
 </testsuites>
